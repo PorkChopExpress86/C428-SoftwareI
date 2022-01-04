@@ -23,3 +23,5 @@ To make sure that the program runs correctly, make the following run configurati
 - Click Modify Options > Add VM Options and add this to the add VM option line
   - `--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics`
 
+Generate Java Docs
+- Tools > Generate JavaDoc: I changed it to package so it would generate more documentation but still ignore the private methods.
