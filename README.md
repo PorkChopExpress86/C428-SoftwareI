@@ -19,6 +19,7 @@ IntelliJ Run/Build Configuration
 To make sure that the program runs correctly, make the following run configuration:
 - Run on: Local Machine
 - Java 11 version "11.0.13" should be the drop down list for the SDK to run this on.
+- Main Method: main.Main
 - Click Modify Options > Add VM Options and add this to the add VM option line
-  -`--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics`
--Main Method: main.Main
+  - `--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics`
+
